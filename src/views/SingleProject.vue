@@ -48,7 +48,7 @@ export default {
                         <div class="data_info text-center w-50">
                             <p class="badge" :class="project.type.color" v-if="project.type">{{ project.type.name }}</p>
                             <hr>
-                            <p class="fw-bold fs-6">updated x ago</p>
+                            <p class="fw-bold fs-6">Updated {{project.date}}</p>
                             <hr>
                             <template v-if="project.technologies">
                                 <p class="badge m-1" :class="technology.color"

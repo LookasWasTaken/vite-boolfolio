@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <div class="container pb-5">
         <AppHeader></AppHeader>
         <router-view></router-view>
     </div>

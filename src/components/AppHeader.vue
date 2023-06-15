@@ -6,7 +6,9 @@ export default {
 
 <template>
     <router-link :to="{ name : 'home'}" class="text-decoration-none">
-        <h1 class="text-center py-5 text-light">LookasWasTaken BoolFolio</h1>
+        <div class="d-flex justify-content-center align-items-center">
+            <img class="img-fluid mx-auto" src="../assets/Boolfolio.png" alt="Lookas Logo">
+        </div>
     </router-link>
 </template>
 
